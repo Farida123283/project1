@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Мета-тег для адаптивности на мобильных устройствах -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эмодзи-Клавиатура</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Эмодзи-Клавиатура</h1>
+    
+    <!-- Контейнер для виртуальной клавиатуры -->
+    <div id="keyboard">
+        <div class="row">
+            <button class="key" data-word="Екі езуі екі құлағында!">😀</button>
+            <button class="key" data-word="Күлкіден ішегі қатып қалды.">😂</button>
+            <button class="key" data-word="Жүрегім тас төбеме шықты!">😱</button>
+        </div>
+        <div class="row">
+            <button class="key" data-word="Көзіме күндей көрінді!">🤩</button>
+            <button class="key" data-word="Жылы құшақ – жанға ем.">🤗</button>
+            <button class="key" data-word="Тасқа басқандай!">💥</button>
+        </div>
+    </div>
+    
+    <!-- Контейнер для отображения текста -->
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
